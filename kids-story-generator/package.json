@@ -1,0 +1,17 @@
+{
+  "name": "kids-story-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "story-writer.js",
+  "scripts": {
+    "write": "node --env-file=.env story-writer.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "fast-csv": "^5.0.0",
+    "openai": "^4.24.7"
+  }
+}
